@@ -1,0 +1,29 @@
+
+Download and install JAVA
+https://www.java.com/download/ie_manual.jsp
+https://www.oracle.com/java/technologies/downloads/#jdk18-windows
+( JAVA_HOME )
+
+Download e setup maven :
+https://phoenixnap.com/kb/install-maven-windows#:~:text=%20How%20to%20Install%20Maven%20on%20Windows%20,the%20Path%20variable%20under%20the%20System...%20More%20
+( MAVEN_HOME)
+mvn install
+
+
+
+https://start.spring.io/
+Springboot devtools
+lambook
+springweb
+
+mvn spring-boot:run
+
+(Lambok getter/setter not recognize)
+Press Command + shift + P and execute:
+Java: Clean Java language server workspace
+
+https://mvnrepository.com/artifact/org.postgresql/postgresql
+
+docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=beesrootpassword -e MYSQL_DATABASE=bees -e MYSQL_USER=beesuser -e MYSQL_PASSWORD=beespassword mysql
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#core.extensions
