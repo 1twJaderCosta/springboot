@@ -1,11 +1,7 @@
 package br.com.springboot.service;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
-import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import org.yaml.snakeyaml.constructor.Construct;
-
 
 // @Service
 public class RestService {
